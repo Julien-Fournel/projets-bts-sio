@@ -148,19 +148,25 @@ h2 a:hover {
     0% {
         opacity:1;
     }
+    10% {
+        opacity: 1;
+    }
     40% {
-        opacity: 0;
+        opacity: 1;
+    }
+    60% {
+        opacity: 0.5;
     }
 
     80% {
-        opacity: 1;
+        opacity: 0;
     }
- 
- 
 
     100% {
         opacity: 0;
     }
+ 
+ 
 }
 
 .diaporama a:hover img{
